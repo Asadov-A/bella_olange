@@ -6,3 +6,113 @@
   list-style: none;
   color: inherit;
 }
+.section-1{
+  background-image: url('../../../assets/backgrounds/section-1-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 590px;
+  width: 100%;
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 600px;
+
+}
+.section-1 h3{
+color: #F6F6F6;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.1px;
+text-align: center;
+font-family: "Montserrat", sans-serif;
+margin-top: -70px;
+}
+.section-1 h1{
+font-weight: 700;
+font-size: 58px;
+line-height: 80px;
+letter-spacing: 0.2px;
+text-align: center;
+color: #FFFFFF;
+text-align: center;
+}
+.section-1 p{
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+letter-spacing: 0.2px;
+text-align: center;
+font-family: "Montserrat", sans-serif;
+color: #F6F6F6;
+margin-top: 17px;
+}
+.section-1__buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+  margin-top: 50px;
+  z-index: 100;
+}
+.playstore--btn{
+  width: 236px;
+height: 68px;
+opacity: 1;
+border-radius: 30px;
+padding-top: 16px;
+padding-bottom: 16px;
+background-color: #FA4A0C;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.1px;
+font-family: "Montserrat", sans-serif;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+transition: 0.45s;
+}
+.appstore--btn{
+  width: 236px;
+height: 68px;
+border-radius: 30px;
+padding-top: 16px;
+padding-bottom: 16px;
+border: 1px solid #FFFFFF;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.1px;
+color: #FFFFFF;
+font-family: "Montserrat", sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: transparent;
+cursor: pointer;
+transition: 0.45s;
+}
+.playstore--btn:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #FA4A0C;
+  border: 2px solid #FFFFFF;
+}
+.appstore--btn:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px;
+  background-color: #ffffff35;
+}
+.section-1__buttons button:active{
+  transform: scale(0.9);
+  opacity: 80%;
+}
+.section-1--img{
+  position: absolute;
+  top: 450px;
+}
