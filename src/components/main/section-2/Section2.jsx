@@ -7,10 +7,10 @@ function Section2() {
   return (
     <>
      <section>
-      <h2 style={{textAlign:"center", marginTop:"72px", marginBottom:"39px", fontSize:"44px", fontWeight:"600"}}>How the app works</h2>
+      <h2 style={{textAlign:"center", marginTop:"72px", marginBottom:"39px", fontSize:"44px", fontWeight:"600", borderTop:"3px solid silver", width:"884px", margin:"0 auto", padding:"50px 0px 0px 0px"}}>How the app works</h2>
       <div style={{display:"flex", alignItems:"center", justifyContent:"center", gap:"50px"}} className="bobo">
       <div className="left">
-       <img src={sectionImg} alt="" />
+       <img src={imge} alt="" />
       </div>
 
         <div className="right">
