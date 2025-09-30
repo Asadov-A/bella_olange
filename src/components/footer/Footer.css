@@ -6,3 +6,38 @@
   list-style: none;
   color: inherit;
 }
+
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+.socilas{
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  color: #FA4A0C;
+  gap: 25px;
+  transition: 0.45s;
+}
+.socilas-btn{
+  transition: 0.45s;
+}
+.socilas-btn:hover{
+  transform: scale(1.1);
+  color: #000100ab;
+  transition: 0.45s;
+}
+
+.socilas-btn:hover{
+  transform: scale(1.1);
+  color: #000100ab;
+  transition: 0.45s;
+}
+.socilas-btn:hover{
+  transform: scale(1.1);
+  color: #000100ab;
+  transition: 0.45s;
+}
