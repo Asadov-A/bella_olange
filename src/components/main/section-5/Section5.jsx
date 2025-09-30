@@ -6,7 +6,7 @@ function Section5() {
 
   return (
     <>
-     <section>
+     <section className='section-5'>
       <main>
         <h1>Download the app now.</h1>
         <p>
